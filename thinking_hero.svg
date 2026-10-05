@@ -1,0 +1,7 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 700'>
+<rect width='1200' height='700' fill='#0B0B1E'/>
+<g transform='translate(600 350)'>
+<circle r='190' fill='none' stroke='#7209B7' stroke-width='34' opacity='.62'/>
+<circle r='100' fill='none' stroke='#00B4D8' stroke-width='20' opacity='.85'/>
+<g stroke='white' stroke-width='8' opacity='.68'><path d='M0-280V-200'/><path d='M0 200V280'/><path d='M-280 0H-200'/><path d='M200 0H280'/><path d='M-200-200l55 55'/><path d='M145 145l55 55'/><path d='M200-200l-55 55'/><path d='M-145 145l-55 55'/></g>
+</g></svg>

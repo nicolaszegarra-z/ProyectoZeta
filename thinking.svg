@@ -1,0 +1,4 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 900 600'><rect width='900' height='600' fill='#0B0B1E'/>
+<circle cx='450' cy='300' r='170' fill='none' stroke='#7209B7' stroke-width='30' opacity='.65'/>
+<circle cx='450' cy='300' r='90' fill='none' stroke='#00B4D8' stroke-width='20' opacity='.8'/>
+<path d='M450 70v90M450 440v90M220 300h90M590 300h90' stroke='white' stroke-width='10' opacity='.7'/></svg>
