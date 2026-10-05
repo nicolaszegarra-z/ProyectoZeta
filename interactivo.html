@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Zona Interactiva · PROYECTO ZETA</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="interactive-v083">
+  <nav>
+    <a class="brand zeta-brand" href="index.html" aria-label="Proyecto Zeta — Colegio Anglo Americano Prescott">
+      <span class="prescott-mark"><img src="assets/images/prescott-logo.png" alt="Colegio Anglo Americano Prescott" /></span>
+      <span class="zeta-lockup"><strong>PROYECTO ZETA</strong></span>
+    </a>
+    <div class="menu">
+      <a href="inicio.html">Inicio</a>
+      <a href="investigacion.html">Investigación</a>
+      <div class="menu-group"><a href="senales.html">Avances en telecomunicaciones</a><div class="submenu"><a href="hitos-telecomunicaciones.html">Hitos más importantes</a><a href="senales.html">Una historia de evolución tecnológica</a></div></div>
+      <div class="menu-group"><a href="materiales.html">Ciencias de materiales</a><div class="submenu"><a href="hitos-materiales.html">Hitos más importantes</a><a href="materiales.html">De seleccionar materiales a diseñar sistemas completos</a></div></div>
+      <div class="menu-group"><a href="pensamiento.html">Pensamiento crítico</a><div class="submenu"><a href="hitos-pensamiento.html">Hitos más importantes</a><a href="pensamiento.html">Cómo la evidencia fue transformando nuestra visión del universo</a></div></div>
+      <a href="conclusiones.html">Conclusiones</a>
+      <a class="active" href="interactivo.html">Interactivo</a>
+      <a href="sobremi.html">Sobre mí</a>
+      <a href="bibliografia.html">Fuentes</a>
+    </div>
+  </nav>
+
+  <header class="page-hero real-hero interactive-hero-v083" style="background-image:linear-gradient(90deg,rgba(5,8,22,.94),rgba(5,8,22,.66) 54%,rgba(5,8,22,.35)),url('assets/images/apollo-local/earth-horizon.jpg')">
+    <div class="wrap">
+      <div class="breadcrumbs"><a href="inicio.html">Inicio</a><span>›</span>Zona Interactiva</div>
+      <p class="eyebrow">JUEGA · DECIDE · COMPRUEBA</p>
+      <h1>Zona Interactiva</h1>
+      <p>Dos experiencias construidas únicamente con el contenido del proyecto: toma decisiones como si dirigieras una misión espacial y después enfrenta un quiz que cambia en cada partida.</p>
+      <div class="subnav interactive-subnav-v083"><a href="#mision-zeta">Misión Zeta</a><a href="#quiz-zeta">Quiz de 100 preguntas</a></div>
+    </div>
+  </header>
+
+  <main class="interactive-main-v083">
+    <section class="interactive-games-intro reveal">
+      <article>
+        <span>01</span>
+        <p class="eyebrow">JUEGO DE DECISIONES</p>
+        <h2>Misión Zeta</h2>
+        <p>Ocho decisiones conectan telecomunicaciones, ciencia de materiales y pensamiento crítico. No basta con acertar: cada elección altera la viabilidad de la misión.</p>
+        <a href="#mision-zeta">Entrar a la misión →</a>
+      </article>
+      <article>
+        <span>02</span>
+        <p class="eyebrow">BANCO DE 1000 PREGUNTAS</p>
+        <h2>Quiz Zeta</h2>
+        <p>Cada partida selecciona automáticamente 100 preguntas distintas del banco de la página. Todas son de opción múltiple y cada respuesta incluye una explicación.</p>
+        <a href="#quiz-zeta">Iniciar el quiz →</a>
+      </article>
+    </section>
+
+    <section class="mission-section-v083 reveal" id="mision-zeta">
+      <div class="interactive-section-heading">
+        <div>
+          <p class="eyebrow">01 · MISIÓN ZETA</p>
+          <h2>¿Puedes mantener viva una misión científica?</h2>
+        </div>
+        <p>Tu objetivo es llevar un laboratorio robótico hasta Marte, mantenerlo operativo y devolver ciencia útil a la Tierra. Cada problema está basado en situaciones y soluciones desarrolladas dentro del proyecto.</p>
+      </div>
+
+      <div class="mission-shell-v083" data-mission-root>
+        <div class="mission-visual-v083" style="background-image:linear-gradient(0deg,rgba(5,8,22,.88),rgba(5,8,22,.08)),url('assets/images/real/deep-space-network.webp')">
+          <div class="mission-orbit-v083"></div>
+          <div class="mission-visual-copy-v083">
+            <span>OBJETIVO</span>
+            <h3>Laboratorio robótico · Marte</h3>
+            <p>Diseña una arquitectura que sobreviva, se comunique y tome decisiones cuando la Tierra no pueda responder de inmediato.</p>
+          </div>
+        </div>
+
+        <div class="mission-console-v083">
+          <div class="mission-console-top-v083">
+            <div>
+              <small>PROGRESO DE MISIÓN</small>
+              <strong data-mission-progress-label>0 / 8</strong>
+            </div>
+            <div class="mission-progress-track-v083"><i data-mission-progress></i></div>
+          </div>
+
+          <div class="mission-stats-v083">
+            <div><span>Energía</span><b data-stat-value="energy">70</b><div><i data-stat-bar="energy"></i></div></div>
+            <div><span>Datos</span><b data-stat-value="data">70</b><div><i data-stat-bar="data"></i></div></div>
+            <div><span>Integridad</span><b data-stat-value="integrity">70</b><div><i data-stat-bar="integrity"></i></div></div>
+            <div><span>Autonomía</span><b data-stat-value="autonomy">70</b><div><i data-stat-bar="autonomy"></i></div></div>
+          </div>
+
+          <div class="mission-start-v083" data-mission-start>
+            <p class="eyebrow">ANTES DEL LANZAMIENTO</p>
+            <h3>La misión no necesita una solución perfecta. Necesita un sistema equilibrado.</h3>
+            <p>Las mejores decisiones conservan energía, protegen la estructura, preservan los datos y permiten actuar cuando la comunicación con la Tierra no es inmediata.</p>
+            <button type="button" data-start-mission>Iniciar Misión Zeta →</button>
+          </div>
+
+          <div class="mission-stage-v083" data-mission-stage hidden>
+            <div class="mission-stage-meta-v083"><span data-mission-step-label>DECISIÓN 1</span><span data-mission-domain>Materiales</span></div>
+            <h3 data-mission-title></h3>
+            <p class="mission-scenario-v083" data-mission-scenario></p>
+            <div class="mission-choices-v083" data-mission-choices></div>
+            <div class="mission-feedback-v083" data-mission-feedback hidden></div>
+            <button class="mission-next-v083" type="button" data-mission-next hidden>Siguiente decisión →</button>
+          </div>
+
+          <div class="mission-result-v083" data-mission-result hidden>
+            <p class="eyebrow">INFORME FINAL</p>
+            <h3 data-mission-result-title></h3>
+            <p data-mission-result-copy></p>
+            <div class="mission-score-v083"><span>VIABILIDAD</span><strong data-mission-score>0%</strong></div>
+            <button type="button" data-restart-mission>Reintentar misión ↻</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="mission-log-v083">
+        <div class="mission-log-title-v083"><span>REGISTRO DE DECISIONES</span><p>Las decisiones tomadas aparecerán aquí junto con su consecuencia.</p></div>
+        <div data-mission-log class="mission-log-list-v083"><p class="mission-log-empty-v083">Todavía no hay decisiones registradas.</p></div>
+      </div>
+    </section>
+
+    <section class="quiz-section-v083 reveal" id="quiz-zeta">
+      <div class="interactive-section-heading quiz-heading-v083">
+        <div>
+          <p class="eyebrow">02 · QUIZ ZETA</p>
+          <h2>100 preguntas diferentes en cada partida.</h2>
+        </div>
+        <p>La base contiene exactamente <strong>1000 preguntas</strong> generadas a partir de los tres recorridos principales de la web. El algoritmo selecciona 100 sin repetir y mezcla telecomunicaciones, materiales y pensamiento crítico.</p>
+      </div>
+
+      <div class="quiz-shell-v083" data-quiz-root>
+        <div class="quiz-welcome-v083" data-quiz-welcome>
+          <div class="quiz-bank-number-v083"><strong data-bank-count>1000</strong><span>PREGUNTAS EN LA BASE</span></div>
+          <div class="quiz-rules-v083">
+            <p class="eyebrow">CÓMO FUNCIONA</p>
+            <h3>Una partida, cien preguntas, cuatro opciones.</h3>
+            <p>Las preguntas se eligen al azar y sin repetirse. Cuando falles, la página explicará por qué la opción elegida no corresponde y mostrará cuál era la respuesta correcta.</p>
+            <div class="quiz-rule-grid-v083"><span>100 por partida</span><span>4 opciones</span><span>Explicación inmediata</span><span>Contenido exclusivo de la web</span></div>
+            <button type="button" data-start-quiz>Iniciar quiz →</button>
+          </div>
+        </div>
+
+        <div class="quiz-game-v083" data-quiz-game hidden>
+          <div class="quiz-topbar-v083">
+            <div class="quiz-progress-copy-v083"><span data-quiz-number>PREGUNTA 1 / 100</span><b data-quiz-category>Telecomunicaciones</b></div>
+            <div class="quiz-score-strip-v083"><span>Aciertos <b data-quiz-correct>0</b></span><span>Errores <b data-quiz-wrong>0</b></span><span>Puntos <b data-quiz-score>0</b></span></div>
+          </div>
+          <div class="quiz-progress-v083"><i data-quiz-progress></i></div>
+          <div class="quiz-question-v083">
+            <p class="eyebrow" data-quiz-source-label></p>
+            <h3 data-quiz-question></h3>
+            <div class="quiz-options-v083" data-quiz-options></div>
+            <div class="quiz-explanation-v083" data-quiz-explanation hidden>
+              <div data-quiz-explanation-icon></div>
+              <div><strong data-quiz-explanation-title></strong><p data-quiz-explanation-text></p><a data-quiz-source-link href="#">Consultar esta etapa en la web →</a></div>
+            </div>
+            <button class="quiz-next-v083" type="button" data-quiz-next hidden>Siguiente pregunta →</button>
+          </div>
+        </div>
+
+        <div class="quiz-results-v083" data-quiz-results hidden>
+          <p class="eyebrow">RESULTADO FINAL</p>
+          <h3 data-quiz-result-title></h3>
+          <div class="quiz-result-score-v083"><strong data-quiz-result-score>0</strong><span>/ 100</span></div>
+          <p data-quiz-result-copy></p>
+          <div class="quiz-breakdown-v083" data-quiz-breakdown></div>
+          <button type="button" data-restart-quiz>Nueva selección de 100 preguntas ↻</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><b>PROYECTO ZETA · v0.9.5</b><span>Zona Interactiva · Misión Zeta + Quiz de 1000 preguntas</span></footer>
+  <script src="js/quiz-bank.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/interactive.js"></script>
+</body>
+</html>
