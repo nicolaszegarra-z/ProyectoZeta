@@ -1,0 +1,11 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 700'>
+<defs><linearGradient id='metal' x1='0' x2='1'><stop stop-color='#334155'/><stop offset='.5' stop-color='#e2e8f0'/><stop offset='1' stop-color='#475569'/></linearGradient></defs>
+<rect width='1200' height='700' fill='#07111f'/>
+<g transform='translate(150 120)'>
+<polygon points='90,0 180,52 180,156 90,208 0,156 0,52' fill='url(#metal)'/>
+<polygon points='360,55 450,107 450,211 360,263 270,211 270,107' fill='#d8b84b'/>
+<polygon points='630,0 720,52 720,156 630,208 540,156 540,52' fill='#64748b'/>
+<polygon points='900,60 990,112 990,216 900,268 810,216 810,112' fill='#94a3b8'/>
+</g>
+<path d='M120 520h960' stroke='#00B4D8' stroke-width='8'/><path d='M180 570h840' stroke='#7209B7' stroke-width='4' opacity='.6'/>
+</svg>

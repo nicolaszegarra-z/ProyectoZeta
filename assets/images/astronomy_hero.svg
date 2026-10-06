@@ -1,0 +1,8 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 700'>
+<rect width='1200' height='700' fill='#050816'/>
+<ellipse cx='690' cy='350' rx='360' ry='115' fill='none' stroke='#60a5fa' stroke-opacity='.25' stroke-width='42' transform='rotate(-17 690 350)'/>
+<ellipse cx='690' cy='350' rx='280' ry='90' fill='none' stroke='#c084fc' stroke-opacity='.32' stroke-width='30' transform='rotate(15 690 350)'/>
+<circle cx='690' cy='350' r='170' fill='#fff1c2' opacity='.9'/>
+<circle cx='250' cy='220' r='70' fill='#38bdf8' opacity='.75'/><circle cx='250' cy='220' r='105' fill='none' stroke='#38bdf8' stroke-opacity='.25' stroke-width='8'/>
+<g fill='white' opacity='.75'><circle cx='110' cy='120' r='2'/><circle cx='370' cy='90' r='1.6'/><circle cx='1020' cy='120' r='1.5'/><circle cx='1080' cy='560' r='2'/></g>
+</svg>
