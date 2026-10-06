@@ -367,7 +367,7 @@ document.addEventListener('error',e=>{if(e.target&&e.target.tagName==='IMG'){e.t
       await el.play();
       musicStarted = true;
       sessionStorage.setItem(AMBIENT_KEY, '1');
-      const target = 0.06; // ambience intentionally soft / tenue
+      const target = 0.30; // ambience intentionally soft / tenue
       const started = performance.now();
       const fade = () => {
         const p = Math.min(1, (performance.now() - started) / 3200);
